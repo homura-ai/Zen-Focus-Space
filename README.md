@@ -28,6 +28,8 @@
 - [Zen Browser](https://zen-browser.app/) — Focus Space is Zen-specific: it hooks into Zen's spaces and the workspace indicator.
 - The [Sine](https://github.com/CosmoCreeper/Sine) mod manager, used to install and configure it.
 
+Tested with **Zen 1.24.2b** and **Sine 2.3.4.1c**. The stopwatch uses Zen's workspace indicator, so a theme that hides `.zen-current-workspace-indicator` also hides the stopwatch; enable that indicator in your theme to see it. Session and page logging still work while the indicator is hidden.
+
 ## ⚙️ Installation Guide
 
 First, install the latest version of [Sine](https://github.com/CosmoCreeper/Sine) (if you haven't already) and restart Zen. Then add Focus Space using either method below.
@@ -104,3 +106,11 @@ Built for [Zen Browser](https://zen-browser.app/) and the [Sine](https://github.
 ## 📜 License
 
 Released under the MIT License. See [LICENSE](./LICENSE) for details.
+
+## Development checks
+
+Run the focused timer-layout regression tests with Node.js (no dependencies):
+
+```sh
+node --test --test-concurrency=1 tests/timer-layout.test.cjs
+```
