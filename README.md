@@ -5,6 +5,8 @@
     </a>
 </div>
 
+Note: I do not recommend using this, instead use something like ActivityWatch. 
+
 <div align="center">
     <img width="640" alt="Zen Browser with Focus Space: a live 'Work | 37:05' stopwatch in the workspace indicator, and the sidebar-foot time-ratio bar with its Today/Week/Month breakdown open (Work 71%, Learn 9%, Rest 20%)" src="https://raw.githubusercontent.com/homura-ai/Zen-Focus-Space/main/preview.png" />
 </div>
