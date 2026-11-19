@@ -107,7 +107,7 @@ Built for [Zen Browser](https://zen-browser.app/) and the [Sine](https://github.
 
 ## 📜 License
 
-Released under the MIT License. See [LICENSE](./LICENSE) for details.
+The original upstream code is MIT-licensed. Changes by @01-1 in this fork are all rights reserved; see [LICENSE](./LICENSE) for the terms and how to request an exception.
 
 ## Development checks
 
